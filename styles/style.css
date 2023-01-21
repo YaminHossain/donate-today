@@ -2,6 +2,9 @@
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
+button {
+  cursor: pointer;
+}
 /* navigation bar */
 .nav-bar {
   display: flex;
@@ -67,12 +70,108 @@
   display: block;
   margin: 0px auto;
 }
+/* Main Section */
+/* Donate Today Section */
+.donate-today h1 {
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.donate-today p {
+  color: #919090;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 40px;
+}
+.donate-amount {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 0px 520px;
+}
+.donate-amount>button {
+  display: block;
+  border: none;
+  font-size: 40px;
+  font-weight: 1000;
+  color: #919090;
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+}
+.donate-amount>button:focus {
+  background-color: #e96464;
+  color: white;
+  height: 200px;
+  width: 200px;
+}
+.donate-today input{
+    display: block;
+    border-top: none;
+    border-left: none;
+   border-right:none ;
+    border-bottom: solid #919090 1px ;
+    margin: 50px auto;
+    color: #919090;
+    text-align: center;
+    width: 835px;
+    height: 50px;
+}
+.donate-today input:focus{
+    font-size: 20px;
+    outline: none;
+    background-color:  #d6d6d6;
+
+}
+.donate-today button{
+    display: block;
+    margin: 50px auto;
+}
+
+.donate-plan h1 {
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Footer Section */
 footer {
   background-color: black;
   width: 100%;
   height: 200px;
-  padding-top: 100px
+  padding-top: 100px;
 }
 footer h2 {
   font-family: "Norican", cursive;
@@ -82,7 +181,7 @@ footer h2 {
   font-size: 40px;
   font-weight: 600;
 }
-footer p{
-    color: white;
-    text-align: center;
+footer p {
+  color: white;
+  text-align: center;
 }
